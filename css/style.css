@@ -172,8 +172,8 @@ img {
 /* Start Gradient Area css
 ============================================================================================ */
 
-.single-post-area .nav.nav-tabs li a.active,
-.single-post-area .nav.nav-tabs li a:hover {
+.single-project-area .nav.nav-tabs li a.active,
+.single-project-area .nav.nav-tabs li a:hover {
   background: -webkit-linear-gradient(90deg, #898bff 0%, #89c6ff 100%);
   background: -moz-linear-gradient(90deg, #898bff 0%, #89c6ff 100%);
   background: -o-linear-gradient(90deg, #898bff 0%, #89c6ff 100%);
@@ -181,8 +181,8 @@ img {
   color: #fff;
 }
 
-.recent_update_inner .nav.nav-tabs li a.active,
-.recent_update_inner .nav.nav-tabs li a:hover {
+.example_inner .nav.nav-tabs li a.active,
+.example_inner .nav.nav-tabs li a:hover {
   background: -webkit-linear-gradient(90deg, #898bff 0%, #89c6ff 100%);
   background: -moz-linear-gradient(90deg, #898bff 0%, #89c6ff 100%);
   background: -o-linear-gradient(90deg, #898bff 0%, #89c6ff 100%);
@@ -574,7 +574,7 @@ img {
   margin-bottom: 20px;
 }
 
-.blog_banner .banner_inner {
+.project_banner .banner_inner {
   background: #04091e;
   position: relative;
   overflow: hidden;
@@ -583,14 +583,14 @@ img {
   z-index: 1;
 }
 
-.blog_banner .banner_inner .blog_b_text h2 {
+.project_banner .banner_inner .project_b_text h2 {
   font-size: 60px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   line-height: 66px;
   margin-bottom: 15px;
 }
-.blog_banner .banner_inner .blog_b_text p {
+.project_banner .banner_inner .project_b_text p {
   font-size: 16px;
   margin-bottom: 35px;
 }
@@ -667,143 +667,53 @@ img {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
-body.blog_page {
+body.project_page {
   background: #f9f9ff;
 }
-body.blog_page h1,
-body.blog_page h2,
-body.blog_page h3,
-body.blog_page h4,
-body.blog_page h5,
-body.blog_page h6 {
+body.project_page h1,
+body.project_page h2,
+body.project_page h3,
+body.project_page h4,
+body.project_page h5,
+body.project_page h6 {
   font-family: "Roboto", sans-serif;
 }
-body.blog_page p {
+body.project_page p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-/* Causes Area css
-============================================================================================ */
 
-.causes_item .causes_img .c_parcent span {
-  width: 70%;
-  height: 3px;
-  background: #898bff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-.causes_item .causes_img .c_parcent span:before {
-  content: "75%";
-  position: absolute;
-  right: -10px;
-  bottom: 0;
-  background: #898bff;
-  color: #fff;
-  padding: 0 5px;
-}
+/*================= project_area css =============*/
 
-.causes_item .causes_text h4 {
-  color: #222222;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  cursor: pointer;
-}
-.causes_item .causes_text h4:hover {
-  color: #898bff;
-}
-.causes_item .causes_text p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #777777;
-  font-weight: 300;
-  margin-bottom: 0;
-}
-.causes_item .causes_bottom a {
-  width: 50%;
-  border: 1px solid #898bff;
-  text-align: center;
-  float: left;
-  line-height: 50px;
-  background: #898bff;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-}
-.causes_item .causes_bottom a + a {
-  border-color: #eeeeee;
-  background: #fff;
-  font-size: 14px;
-  color: #222222;
-}
-
-/* End Causes Area css
-============================================================================================ */
-/*================= latest_blog_area css =============*/
-.single-recent-blog-post .thumb img {
-  transition: all 0.7s linear;
-}
-
-.single-recent-blog-post .date {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-}
-.single-recent-blog-post:hover img {
+.single-project:hover img {
   transform: scale(1.23) rotate(10deg);
 }
 
-/*========= blog_categorie_area css ===========*/
+/*========= project_categorie_area css ===========*/
 
-.categories_post img {
-  max-width: 100%;
-}
 
-.categories_post .categories_details h5 {
-  margin-bottom: 0;
-  font-size: 18px;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #fff;
-  position: relative;
-}
-.categories_post .categories_details p {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 26px;
-  margin-bottom: 0;
-}
 
-/*============ blog_left_sidebar css ==============*/
+/*============ project_left_sidebar css ==============*/
 
-.blog_info {
-  padding-top: 30px;
-}
-.blog_info {
-  padding-bottom: 20px;
-}
-.blog_info .post_tag a {
+.project_info .project_tag a {
   font: 300 14px/21px "Roboto", sans-serif;
   color: #222222;
 }
-.blog_info .post_tag a:hover {
+.project_info .project_tag a:hover {
   color: #777777;
 }
-.blog_info .post_tag a.active {
+.project_info .project_tag a.active {
   color: #898bff;
 }
-.blog_info .blog_meta li a {
+.project_info .project_meta li a {
   font: 300 14px/20px "Roboto", sans-serif;
   color: #777777;
   vertical-align: middle;
   padding-bottom: 12px;
   display: inline-block;
 }
-.blog_info .blog_meta li a i {
+.project_info .project_meta li a i {
   color: #222222;
   font-size: 16px;
   font-weight: 600;
@@ -811,32 +721,32 @@ body.blog_page p {
   line-height: 20px;
   vertical-align: middle;
 }
-.blog_info .blog_meta li a:hover {
+.project_info .project_meta li a:hover {
   color: #898bff;
 }
 
-.blog_post img {
+.project_project img {
   max-width: 100%;
 }
 
-.blog_details {
+.project_details {
   padding-top: 20px;
 }
-.blog_details h2 {
+.project_details h2 {
   font-size: 24px;
   line-height: 36px;
   color: #222222;
   font-weight: 500;
   transition: all 0.3s linear;
 }
-.blog_details h2:hover {
+.project_details h2:hover {
   color: #898bff;
 }
-.blog_details p {
+.project_details p {
   margin-bottom: 26px;
 }
 
-.blog_right_sidebar .search_widget .input-group .form-control {
+.project_right_sidebar .search_widget .input-group .form-control {
   font-size: 14px;
   line-height: 29px;
   border: 0;
@@ -849,49 +759,49 @@ body.blog_page p {
   background: #898bff;
 }
 
-.blog_right_sidebar .search_widget .input-group .form-control:-moz-placeholder {
+.project_right_sidebar .search_widget .input-group .form-control:-moz-placeholder {
   color: #fff;
 }
-.blog_right_sidebar
+.project_right_sidebar
   .search_widget
   .input-group
   .form-control::-moz-placeholder {
   color: #fff;
 }
-.blog_right_sidebar
+.project_right_sidebar
   .search_widget
   .input-group
   .form-control::-webkit-input-placeholder {
   color: #fff;
 }
-.blog_right_sidebar .search_widget .input-group .form-control:focus {
+.project_right_sidebar .search_widget .input-group .form-control:focus {
   box-shadow: none;
 }
 
-.blog_right_sidebar .author_widget h4 {
+.project_right_sidebar .author_widget h4 {
   font-size: 18px;
   line-height: 20px;
   color: #222222;
   margin-bottom: 0;
   margin-top: 30px;
 }
-.blog_right_sidebar .author_widget p {
+.project_right_sidebar .author_widget p {
   margin-bottom: 0;
 }
 
-.blog_right_sidebar .author_widget .social_icon a {
+.project_right_sidebar .author_widget .social_icon a {
   font-size: 14px;
   color: #222222;
   transition: all 0.2s linear;
 }
-.blog_right_sidebar .author_widget .social_icon a + a {
+.project_right_sidebar .author_widget .social_icon a + a {
   margin-left: 20px;
 }
-.blog_right_sidebar .author_widget .social_icon a:hover {
+.project_right_sidebar .author_widget .social_icon a:hover {
   color: #898bff;
 }
 
-.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
+.project_right_sidebar .popular_project_widget .project_item .media-body h3 {
   font-size: 14px;
   line-height: 20px;
   color: #222222;
@@ -899,43 +809,43 @@ body.blog_page p {
   font-weight: 500;
   transition: all 0.3s linear;
 }
-.blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
+.project_right_sidebar .popular_project_widget .project_item .media-body h3:hover {
   color: #898bff;
 }
-.blog_right_sidebar .popular_post_widget .post_item .media-body p {
+.project_right_sidebar .popular_project_widget .project_item .media-body p {
   font-size: 12px;
   line-height: 21px;
   margin-bottom: 0;
 }
 
-.blog_right_sidebar .post_category_widget .cat-list li {
+.project_right_sidebar .project_category_widget .cat-list li {
   border-bottom: 2px dotted #eee;
   transition: all 0.3s ease 0s;
   padding-bottom: 12px;
 }
-.blog_right_sidebar .post_category_widget .cat-list li a {
+.project_right_sidebar .project_category_widget .cat-list li a {
   font-size: 14px;
   line-height: 20px;
   color: #777;
 }
-.blog_right_sidebar .post_category_widget .cat-list li a p {
+.project_right_sidebar .project_category_widget .cat-list li a p {
   margin-bottom: 0;
 }
-.blog_right_sidebar .post_category_widget .cat-list li + li {
+.project_right_sidebar .project_category_widget .cat-list li + li {
   padding-top: 15px;
 }
-.blog_right_sidebar .post_category_widget .cat-list li:hover {
+.project_right_sidebar .project_category_widget .cat-list li:hover {
   border-color: #898bff;
 }
-.blog_right_sidebar .post_category_widget .cat-list li:hover a {
+.project_right_sidebar .project_category_widget .cat-list li:hover a {
   color: #898bff;
 }
 
-.blog_right_sidebar .newsletter_widget .form-group {
+.project_right_sidebar .newsletter_widget .form-group {
   margin-bottom: 8px;
 }
 
-.blog_right_sidebar .newsletter_widget .form-control {
+.project_right_sidebar .newsletter_widget .form-control {
   font-size: 12px;
   line-height: 24px;
   color: #cccccc;
@@ -944,26 +854,26 @@ body.blog_page p {
   border-radius: 0;
 }
 
-.blog_right_sidebar .newsletter_widget .form-control:-moz-placeholder {
+.project_right_sidebar .newsletter_widget .form-control:-moz-placeholder {
   color: #cccccc;
 }
-.blog_right_sidebar .newsletter_widget .form-control::-moz-placeholder {
+.project_right_sidebar .newsletter_widget .form-control::-moz-placeholder {
   color: #cccccc;
 }
-.blog_right_sidebar
+.project_right_sidebar
   .newsletter_widget
   .form-control::-webkit-input-placeholder {
   color: #cccccc;
 }
-.blog_right_sidebar .newsletter_widget .form-control:focus {
+.project_right_sidebar .newsletter_widget .form-control:focus {
   outline: none;
   box-shadow: none;
 }
 
-.blog_right_sidebar .tag_cloud_widget ul li {
+.project_right_sidebar .tag_cloud_widget ul li {
   display: inline-block;
 }
-.blog_right_sidebar .tag_cloud_widget ul li a {
+.project_right_sidebar .tag_cloud_widget ul li a {
   display: inline-block;
   border: 1px solid #eee;
   background: #fff;
@@ -973,65 +883,65 @@ body.blog_page p {
   color: #222222;
   font-size: 12px;
 }
-.blog_right_sidebar .tag_cloud_widget ul li a:hover {
+.project_right_sidebar .tag_cloud_widget ul li a:hover {
   background: #898bff;
   color: #fff;
 }
 
-/*============ Start Blog Single Styles  =============*/
-.single-post-area .social-links {
+/*============ Start Single Project Styles  =============*/
+.single-project-area .social-links {
   padding-top: 10px;
 }
-.single-post-area .social-links li {
+.single-project-area .social-links li {
   display: inline-block;
   margin-bottom: 10px;
 }
-.single-post-area .social-links li a {
+.single-project-area .social-links li a {
   color: #cccccc;
   padding: 7px;
   font-size: 14px;
   transition: all 0.2s linear;
 }
-.single-post-area .social-links li a:hover {
+.single-project-area .social-links li a:hover {
   color: #222222;
 }
-.single-post-area .blog_details {
+.single-project-area .project_details {
   padding-top: 26px;
 }
-.single-post-area .blog_details p {
+.single-project-area .project_details p {
   margin-bottom: 10px;
 }
 
-.single-post-area .navigation-area p {
+.single-project-area .navigation-area p {
   margin-bottom: 0;
 }
-.single-post-area .navigation-area h4 {
+.single-project-area .navigation-area h4 {
   font-size: 18px;
   line-height: 25px;
   color: #222222;
 }
 
-.single-post-area .navigation-area .nav-left .thumb img {
+.single-project-area .navigation-area .nav-left .thumb img {
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
 
-.single-post-area .navigation-area .nav-left:hover .thumb img {
+.single-project-area .navigation-area .nav-left:hover .thumb img {
   opacity: 0.5;
 }
 @media (max-width: 767px) {
 }
 
-.single-post-area .navigation-area .nav-right .thumb img {
+.single-project-area .navigation-area .nav-right .thumb img {
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
 
-.single-post-area .navigation-area .nav-right:hover .thumb img {
+.single-project-area .navigation-area .nav-right:hover .thumb img {
   opacity: 0.5;
 }
 @media (max-width: 991px) {
@@ -1143,7 +1053,7 @@ body.blog_page p {
   background-color: #454545;
 }
 
-/*============ End Blog Single Styles  =============*/
+/*============ End Single Project Styles  =============*/
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Home Map Area css
@@ -1963,26 +1873,26 @@ h6 {
 ============================================================================================ */
 /* Start Recent Update Area css
 ============================================================================================ */
-.recent_update_area {
+.example_area {
   background: url(../img/banner/banner.png) no-repeat center center;
 }
 
-.recent_update_inner .nav.nav-tabs {
+.example_inner .nav.nav-tabs {
   border: none;
   display: flex;
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
 }
-.recent_update_inner .nav.nav-tabs .nav-item {
+.example_inner .nav.nav-tabs .nav-item {
   margin-bottom: 25px !important;
 }
-.recent_update_inner .nav.nav-tabs li {
+.example_inner .nav.nav-tabs li {
   flex: 0 0 33%;
   max-width: 33%;
   padding: 0 15px;
 }
-.recent_update_inner .nav.nav-tabs li a {
+.example_inner .nav.nav-tabs li a {
   position: relative;
   padding: 0;
   border: 0;
@@ -1995,7 +1905,7 @@ h6 {
   font-weight: 600;
   color: #fff;
 }
-.recent_update_inner .nav.nav-tabs li a:after {
+.example_inner .nav.nav-tabs li a:after {
   position: absolute;
   left: 0;
   top: 0;
@@ -2011,28 +1921,28 @@ h6 {
   border-image: linear-gradient(90deg, #898bff, #89c6ff);
   border-image-slice: 1;
 }
-.recent_update_inner .nav.nav-tabs li a.active,
-.recent_update_inner .nav.nav-tabs li a:hover {
+.example_inner .nav.nav-tabs li a.active,
+.example_inner .nav.nav-tabs li a:hover {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   color: #000000;
 }
-.recent_update_inner .tab-content .tab-pane {
+.example_inner .tab-content .tab-pane {
   border: none;
 }
 
-.recent_update_text .chart_img img {
+.example_text .chart_img img {
   height: 100% !important;
   z-index: 999;
 }
 
-.recent_update_text .section_content {
+.example_text .section_content {
   background: -webkit-linear-gradient(to right, #6264ff 0%, #292bb2 100%);
   background: -moz-linear-gradient(to right, #6264ff 0%, #292bb2 100%);
   background: -o-linear-gradient(to right, #6264ff 0%, #292bb2 100%);
   background: linear-gradient(to right, #6264ff 0%, #292bb2 100%);
 }
 
-.recent_update_area .container h2 {
+.example_area .container h2 {
   color: #fff;
   margin-bottom: 50px;
   text-align: center;
@@ -2066,7 +1976,7 @@ h6 {
 ============================================================================================ */
 /* Start Testimonial Area css
 ============================================================================================ */
-.testimonials_area {
+.white_area {
   position: relative;
   background: url(../img/banner/banner.png) no-repeat center;
   background-size: cover;
@@ -2110,18 +2020,18 @@ h6 {
 
 /* End Testimonial Area css
 ============================================================================================ */
-/* Start Pricing Plan Area css
+/* Start Option Plan Area css
 ============================================================================================ */
-.pricing_area {
+.options_area {
   position: relative;
   padding: 120px 0 80px;
 }
 
-.pricing_area .main_title h1 {
+.options_area .main_title h1 {
   color: #22195e;
 }
 
-.pricing_item {
+.options_item {
   background: -webkit-linear-gradient(
     to right,
     #292bb2 0%,
@@ -2150,44 +2060,44 @@ h6 {
   text-align: center;
   margin-bottom: 40px;
 }
-.pricing_item h3.p_title {
+.options_item h3.p_title {
   font-size: 18px;
   color: #fff;
   padding: 35px 30px 25px;
   margin: 0;
 }
-.pricing_item h1.p_price {
+.options_item h1.p_price {
   font-weight: bold;
   color: #fff;
   margin: 0;
   padding: 30px;
   background: #232599;
 }
-.pricing_item ul {
+.options_item ul {
   list-style: none;
   margin: 0;
   padding: 35px 50px 18px;
 }
-.pricing_item ul li {
+.options_item ul li {
   color: #ddd;
   font-weight: 400;
   padding: 14px 0;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
   font-family: "Roboto", sans-serif;
 }
-.pricing_item ul li:nth-last-child(1) {
+.options_item ul li:nth-last-child(1) {
   border-bottom: transparent;
 }
-.pricing_item .p_btn {
+.options_item .p_btn {
   padding-bottom: 50px;
 }
-.pricing_item .p_btn .gradient_btn {
+.options_item .p_btn .gradient_btn {
   position: relative;
 }
-.pricing_item .p_btn .gradient_btn span {
+.options_item .p_btn .gradient_btn span {
   z-index: 2;
 }
-.pricing_item .p_btn .gradient_btn:after {
+.options_item .p_btn .gradient_btn:after {
   content: "";
   position: absolute;
   top: 0;
@@ -2195,8 +2105,8 @@ h6 {
   right: 0;
   bottom: 0;
 }
-.pricing_item.active .p_btn .gradient_btn,
-.pricing_item:hover .p_btn .gradient_btn {
+.options_item.active .p_btn .gradient_btn,
+.options_item:hover .p_btn .gradient_btn {
   color: #22195e;
   background: -webkit-linear-gradient(to right, #898bff 0%, #89c6ff 100%);
   background: -moz-linear-gradient(to right, #898bff 0%, #89c6ff 100%);
@@ -2205,7 +2115,7 @@ h6 {
   border: 2px solid transparent;
 }
 
-/* End Pricing Plan Area css
+/* End Option Plan Area css
 ============================================================================================ */
 /* Start Frequently Asked Questions Area css
 ============================================================================================ */
@@ -2261,13 +2171,13 @@ h6 {
 
 /* End Frequently Asked Questions Area css
 ============================================================================================ */
-/* Start Blog Area css
+/* Start project Area css
 ============================================================================================ */
-.blog_area {
+.project_area {
   padding: 80px 0 120px;
 }
 
-.blog_area .blog_items:hover img {
+.project_area .project_items:hover img {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -2275,7 +2185,7 @@ h6 {
   transform: scale(1.2);
 }
 
-.blog_area .blog_items .blog_img_box img {
+.project_area .project_items .project_img_box img {
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -2283,26 +2193,26 @@ h6 {
   min-width: 100%;
 }
 
-.blog_area .blog_items .blog_content p {
+.project_area .project_items .project_content p {
   color: #ddd;
   font-weight: 400;
   padding: 20px 0 40px;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-.blog_area .blog_items .blog_content .date a {
+.project_area .project_items .project_content .date a {
   font-size: 13px;
   margin-right: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #ddd;
 }
-.blog_area .blog_items .blog_content .date a i {
+.project_area .project_items .project_content .date a i {
   margin-right: 10px;
   color: #fff;
 }
 
-/* End Blog Area css
+/* End project Area css
 ============================================================================================ */
 /* Start Newsletter Area css
 ============================================================================================ */
@@ -2479,17 +2389,14 @@ h6 {
 
   /* End Main Menu Area css
   ============================================================================================ */
-  /* Blog page Area css
+  /* Project page Area css
   ============================================================================================ */
-  .categories_post img {
-    width: 100%;
-  }
 
-  .blog_area {
+  .project_area {
     padding-bottom: 80px;
   }
 
-  /* End Blog page Area css
+  /* End Project page Area css
   ============================================================================================ */
   /* Footer Area css
   ============================================================================================ */
@@ -2524,9 +2431,9 @@ h6 {
     margin-top: 0;
   }
 
-  /* Blog Page Area css
+  /* Project Page Area css
   ============================================================================================ */
-  .blog_banner .banner_inner .blog_b_text h2 {
+  .project_banner .banner_inner .project_b_text h2 {
     font-size: 40px;
     line-height: 50px;
   }
@@ -2536,7 +2443,7 @@ h6 {
     margin-bottom: 10px;
   }
 
-  /* End Blog Page Area css
+  /* End Project Page Area css
   ============================================================================================ */
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 30px;
@@ -2599,19 +2506,19 @@ h6 {
     padding-bottom: 70px;
   }
 
-  /* Blog Page Area css
+  /* Project Page Area css
   ============================================================================================ */
-  .blog_details h2 {
+  .project_details h2 {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .blog_banner .banner_inner .blog_b_text h2 {
+  .project_banner .banner_inner .project_b_text h2 {
     font-size: 28px;
     line-height: 38px;
   }
 
-  /* End Blog Page Area css
+  /* End Project Page Area css
   ============================================================================================ */
 
 }
@@ -2641,10 +2548,6 @@ h6 {
     font-size: 32px;
   }
 
-  /* Blog Page Area css
-  ============================================================================================ */
-  /* End Blog Page Area css
-  ============================================================================================ */
   .testi_item .media .d-flex img {
     width: auto;
     margin-bottom: 15px;
@@ -2656,7 +2559,7 @@ h6 {
     line-height: 38px;
   }
 
-  .blog_area .blog_content .date a {
+  .project_area .project_content .date a {
     margin-right: 22px !important;
   }
 
@@ -2696,7 +2599,7 @@ h6 {
     margin-bottom: 50px;
   }
 
-  .pricing_area {
+  .options_area {
     padding: 80px 0 50px;
   }
 
@@ -2789,7 +2692,7 @@ h6 {
     width: 100%;
   }
 
-  .recent_update_inner .nav.nav-tabs li a {
+  .example_inner .nav.nav-tabs li a {
     height: 45px;
     line-height: 45px;
     font-size: 12px;
@@ -2805,7 +2708,7 @@ h6 {
     margin-top: 10px;
   }
 
-  .pricing_area.section_gap {
+  .options_area.section_gap {
     padding: 70px 0 40px;
   }
 
@@ -2830,14 +2733,14 @@ h6 {
     font-size: 28px;
   }
 
-  .blog_area {
+  .project_area {
     padding: 70px 0;
   }
 
-  .blog_area .blog_items .blog_content p {
+  .project_area .project_items .project_content p {
     padding: 15px 0 30px;
   }
-  .blog_area .blog_items .blog_content .date a {
+  .project_area .project_items .project_content .date a {
     margin-right: 20px;
   }
 
@@ -2919,19 +2822,19 @@ h6 {
     width: 100%;
   }
 
-  .recent_update_inner .nav.nav-tabs {
+  .example_inner .nav.nav-tabs {
     -webkit-justify-content: center;
     -moz-justify-content: center;
     -ms-justify-content: center;
     -o-justify-content: center;
     justify-content: center;
   }
-  .recent_update_inner .nav.nav-tabs li {
+  .example_inner .nav.nav-tabs li {
     flex: 0 0 50%;
     max-width: 50%;
     padding: 0 12px;
   }
-  .recent_update_inner .nav.nav-tabs li a {
+  .example_inner .nav.nav-tabs li a {
     height: 40px;
     line-height: 40px;
     font-size: 12px;
@@ -2979,18 +2882,18 @@ h6 {
     font-size: 10px !important;
   }
 
-  .pricing_area.section_gap {
+  .options_area.section_gap {
     padding: 40px 0 15px;
   }
 
-  .blog_area {
+  .project_area {
     padding: 20px 0 40px;
   }
 
-  .blog_area .blog_items .blog_content p {
+  .project_area .project_items .project_content p {
     padding: 12px 0 20px;
   }
-  .blog_area .blog_items .blog_content .date a {
+  .project_area .project_items .project_content .date a {
     margin-right: 20px;
   }
 
