@@ -32,7 +32,7 @@ $(document).ready(function () {
                         message: 'Je naam moet tussen 1 en 30 tekens zijn'
                     },
                     regexp: {
-                        regexp: /^[aA-zZ_]+$/,
+                        regexp: /^[a-z\s]+$/i,
                         message: 'Er mogen alleen letters in dit vak staan'
                     },
                 }
@@ -59,7 +59,7 @@ $(document).ready(function () {
                         message: 'Je naam moet tussen 1 en 30 tekens zijn'
                     },
                     regexp: {
-                        regexp: /^[a-zA-Z0-9_]+$/,
+                        regexp: /^[a-z\s0-9]+$/i,
                         message: 'Er mogen alleen letters en cijfers in dit vak staan'
                     },
                 }
