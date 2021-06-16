@@ -1,2 +1,2 @@
 # Tech-Sole
-De website voor mijn nieuwe bedrijfje
+De oude voor mijn nieuwe bedrijf
